@@ -50,7 +50,7 @@ for tweet in sntwitter.TwitterHashtagScraper(query).get_items():
         tweets.append([tweet.date, tweet.url, tweet.user.username, tweet.sourceLabel, tweet.user.location, tweet.content, 
                        tweet.likeCount, tweet.retweetCount,  tweet.quoteCount, tweet.replyCount])
                        
-    data = pd.DataFrame(tweets, columns=['Date', 'TweetURL','User', 'Source', 'Location', 'Tweet', 'Likes_Count','Retweet_Count', 
+data = pd.DataFrame(tweets, columns=['Date', 'TweetURL','User', 'Source', 'Location', 'Tweet', 'Likes_Count','Retweet_Count', 
                                    'Quote_Count', 'Reply_Count'])
 ``` 
 
