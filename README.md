@@ -77,7 +77,7 @@ The file was loaded into Power Query for transformation, with minor cleaning tas
 Values in the location field were also standardized, and dates were extracted from the combined datetime field to aid in analysis. Additionally, some columns were created, day column from dates and a day-number column for ease of sorting.
 
 <br/>
-![some cleaning steps](Images/clean.jpg)
+![some cleaning steps](Images/clean.png)
 <br/>
 
 Overall, the data wrangling process was completed using Python and various libraries to scrape and analyze Twitter data. The resulting cleaned and transformed data was then loaded into Power BI for further analysis and visualization.
@@ -108,5 +108,6 @@ Based on the analysis of tweet hashtags of the Microsoft 30 Days of Learning pro
 * Offering localized content including offering courses in local languages to help draw in some zones.
 * Focusing on the aspects of the program that received positive feedback and promoting those areas more.
 
-## Conclusion
-Overall, the analysis, as evidenced by the positive sentiment and engagement surrounding the program on Twitter, demonstrates that the Microsoft 30 Days of Learning program was successful in empowering individuals in Nigeria with digital skills and promoting the importance of digital literacy. The insights gained from the analysis can be used to inform future iterations of the program and to design more effective digital skills training initiatives in Nigeria.
+---
+
+Full article on [medium.](https://medium.com/@seyi_/project-2-1-twitter-hashtag-analysis-21c088270f56)
