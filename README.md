@@ -76,7 +76,6 @@ The file was loaded into Power Query for transformation, with minor cleaning tas
 
 Values in the location field were also standardized, and dates were extracted from the combined datetime field to aid in analysis. Additionally, some columns were created, day column from dates and a day-number column for ease of sorting.
 
-<br/>
 ![some cleaning steps](Images/clean.png)
 <br/>
 
